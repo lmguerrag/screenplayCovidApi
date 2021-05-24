@@ -38,7 +38,7 @@ public class ConsultarUnPacienteStep {
 
     @Y("quiere consultar un paciente registrado por numero de documento")
     public void quiereConsultarUnPacienteRegistradoPorNumeroDeDocumento() {
-        actor.attemptsTo(GetRequestWithToken.execute("paciente/123456"));
+        actor.attemptsTo(GetRequestWithToken.execute("paciente/" + documento));
     }
 
     @Entonces("puede consultar un paciente correctamente")

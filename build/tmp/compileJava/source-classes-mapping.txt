@@ -22,3 +22,8 @@ co/com/sofkau/pecientes/test/task/http/GetRequestWithInvalidToken.java
  co.com.sofkau.pecientes.test.task.http.GetRequestWithInvalidToken
 co/com/sofkau/pecientes/test/task/http/PostRequestWithInvalidToken.java
  co.com.sofkau.pecientes.test.task.http.PostRequestWithInvalidToken
+co/com/sofkau/pecientes/test/data/RequestCitas.java
+ co.com.sofkau.pecientes.test.data.RequestCitas
+co/com/sofkau/pecientes/test/model/JsonCita.java
+ co.com.sofkau.pecientes.test.model.JsonCita
+ co.com.sofkau.pecientes.test.model.JsonCita$JsonCitaBuilder

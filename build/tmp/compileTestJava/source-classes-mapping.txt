@@ -10,3 +10,7 @@ screenplay/steps/GuardarPacienteStep.java
  screenplay.steps.GuardarPacienteStep
 screenplay/steps/ConsultarUnPacienteStep.java
  screenplay.steps.ConsultarUnPacienteStep
+screenplay/runners/TestRunnerCrearCita.java
+ screenplay.runners.TestRunnerCrearCita
+screenplay/steps/CrearCitaStep.java
+ screenplay.steps.CrearCitaStep
