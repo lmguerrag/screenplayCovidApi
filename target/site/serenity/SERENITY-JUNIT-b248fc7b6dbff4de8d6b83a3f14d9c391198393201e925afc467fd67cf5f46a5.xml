@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Administrar información de pacientes" skipped="0" tests="3" time="12.5" timestamp="2021-05-22 07:35:20"><testcase name="Creacion de paciente exitosa"/><testcase name="Creacion de paciente sin token de autenticacion valido"/><testcase name="Creacion de un paciente con campos vacios"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;201&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;201&gt;.
+&#13;
+screenplay.steps.GuardarPacienteStep.laApiContestaConCodigoDeStatus(GuardarPacienteStep.java:89)&#13;
+✽.la api contesta con codigo de status "500"(file:///C:/Users/luisg/Desktop/SoapUIprojects/certificacion-pacientes-covid/src/test/resources/features/GuardarPaciente.feature:17)&#13;
+</system-err></testcase></testsuite>
