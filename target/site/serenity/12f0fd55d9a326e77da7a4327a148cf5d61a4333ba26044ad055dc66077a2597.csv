@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Crear una cita","Cracion de cita exitosa","SUCCESS","2021-05-25T15:20:26.247064-05:00[America/Bogota]","0.0","1.22"
+"Crear una cita","Cracion de cita con token invalido","SUCCESS","2021-05-25T15:20:27.4803349-05:00[America/Bogota]","0.0","0.29"
+"Crear una cita","Cracion de cita con campos vacios","FAILURE","2021-05-25T15:20:27.7725139-05:00[America/Bogota]","0.0","1.17"
+"Crear una cita","Cracion de cita con documento invalido","SUCCESS","2021-05-25T15:20:28.9549227-05:00[America/Bogota]","0.0","2.8"

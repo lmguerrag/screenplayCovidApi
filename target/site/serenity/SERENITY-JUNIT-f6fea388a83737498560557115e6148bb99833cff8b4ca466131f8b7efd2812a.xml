@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Crear una cita" skipped="0" tests="4" time="71.09" timestamp="2021-05-24 05:04:15"><testcase name="Cracion de cita exitosa"/><testcase name="Cracion de cita con token invalido"/><testcase name="Cracion de cita con campos vacios"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Crear una cita" skipped="0" tests="4" time="38.12" timestamp="2021-05-25 04:26:55"><testcase name="Cracion de cita exitosa"/><testcase name="Cracion de cita con token invalido"/><testcase name="Cracion de cita con campos vacios"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;500&gt; but was &lt;201&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;500&gt; but was &lt;201&gt;.

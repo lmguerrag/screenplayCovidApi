@@ -32,4 +32,15 @@ public class RequestPacientes {
                 .build();
     }
 
+    public static JsonPaciente getPatientWithId(String id){
+        return JsonPaciente.builder()
+                .address(faker.address().fullAddress())
+                .cellPhoneNumber(Long.parseLong(faker.number().digits(7)))
+                .email(faker.internet().emailAddress())
+                .firstName(faker.name().firstName())
+                .lastName(faker.name().lastName())
+                .patientId(Long.parseLong(id))
+                .build();
+    }
+
 }

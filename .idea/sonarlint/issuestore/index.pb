@@ -35,3 +35,17 @@ Msrc/main/java/co/com/sofkau/pecientes/test/task/http/GetRequestWithToken.java,
 Tsrc/main/java/co/com/sofkau/pecientes/test/task/http/GetRequestWithInvalidToken.java,4\1\41b557e9b5678ae7548f310caa8be0a7e5725cda
 k
 ;src/test/java/screenplay/steps/ConsultarUnPacienteStep.java,3\c\3c92faadcaa452eadefd28b9cd42fcfef7433077
+i
+9src/test/java/screenplay/runners/TestRunnerCrearCita.java,3\8\383b1d48fa437dc6968216804844647fd2c43bd2
+n
+>src/main/java/co/com/sofkau/pecientes/test/model/JsonCita.java,e\1\e162cb8295da24485c89429ebb673ad0c2d1ef65
+q
+Asrc/main/java/co/com/sofkau/pecientes/test/data/RequestCitas.java,1\8\18fb248d54f9ead5c84c87e7b7d98c4198f915ea
+a
+1src/test/java/screenplay/steps/CrearCitaStep.java,a\4\a43297768016ccbc88eae5b8d977a45e355d1af3
+O
+target/site/serenity/index.html,c\e\ce1d953599e56cfde85da6acfdbbb722b0c73490
+n
+>src/test/java/screenplay/runners/TestRunnerConsultarCitas.java,1\f\1f8f2a00ffc99994f1287cfb39abfcebc71178a0
+f
+6src/test/java/screenplay/steps/ConsultarCitasStep.java,c\3\c3be20d24b80d76e823d538f2cfe9b23d8ed29ff

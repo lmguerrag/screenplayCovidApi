@@ -1,6 +1,9 @@
 #language: es
   Característica: Consultar un paciente
 
+    Antecedentes:
+      Dado un "usuario" guarda un paciente
+
     Escenario: Consulta de paciente exitosa
       Cuando un "usuario" tiene un token valido
       Y quiere consultar un paciente registrado por numero de documento

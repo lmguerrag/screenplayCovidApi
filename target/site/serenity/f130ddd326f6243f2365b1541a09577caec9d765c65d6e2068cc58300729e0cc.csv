@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Autenticación de usuario en la api","Autenticacion exitosa","SUCCESS","2021-05-25T15:20:03.3576099-05:00[America/Bogota]","0.0","9.76"
+"Autenticación de usuario en la api","Autenticacion con password incorrecto","SUCCESS","2021-05-25T15:20:13.1792467-05:00[America/Bogota]","0.0","0.27"

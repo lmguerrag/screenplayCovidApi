@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Autenticación de usuario en la api" skipped="0" tests="3" time="17.89" timestamp="2021-05-24 02:22:38"><testcase name="Autenticacion exitosa"/><testcase name="Autenticacion con password incorrecto"/><testcase name="Autenticacion con password Covid"><failure message="1 expectation failed.&#10;Expected status code &lt;403&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Autenticación de usuario en la api" skipped="0" tests="3" time="10.33" timestamp="2021-05-25 03:20:03"><testcase name="Autenticacion exitosa"/><testcase name="Autenticacion con password incorrecto"/><testcase name="Autenticacion con password Covid"><failure message="1 expectation failed.&#10;Expected status code &lt;403&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
 Expected status code &lt;403&gt; but was &lt;200&gt;.
 </failure><system-err>1 expectation failed.
 Expected status code &lt;403&gt; but was &lt;200&gt;.

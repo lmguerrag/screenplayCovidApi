@@ -1,4 +1,4 @@
-defaultTasks 'clean','test','aggregate'
+defaultTasks 'clean', 'test', 'aggregate'
 
 group 'co.com.sofka.api.test'
 version '1.0.0'
@@ -14,10 +14,9 @@ buildscript {
 }
 
 repositories {
-    mavenCentral()
+    mavenLocal()
     jcenter()
 }
-
 apply plugin: 'java'
 apply plugin: 'jacoco'
 apply plugin: 'net.serenity-bdd.aggregator'
@@ -30,37 +29,23 @@ compileTestJava {
     options.encoding = 'UTF-8'
 }
 
-ext {
-    serenityCoreVersion = '2.3.4'
-    serenityCucumberVersion = '2.3.4'
-    junitVersion = '4.13.1'
-    lombokVersion = '1.18.12'
-    assertJVersion = '3.8.0'
-    fakerVersion = '1.0.2'
-    slf4jVersion = '1.7.30'
-}
 
 dependencies {
 
-    compile "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
-            "net.serenity-bdd:serenity-cucumber6:${serenityCucumberVersion}",
-            "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
-            "net.serenity-bdd:serenity-screenplay-rest:${serenityCoreVersion}",
-            "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
-            "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}",
-            "junit:junit:${junitVersion}",
-            "org.assertj:assertj-core:${assertJVersion}",
-            "com.github.javafaker:javafaker:${fakerVersion}"
+    implementation group: 'net.serenity-bdd', name: 'serenity-core', version: '2.3.4'
+    implementation group: 'net.serenity-bdd', name: 'serenity-cucumber6', version: '2.3.4'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '2.3.4'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-rest', version: '2.3.4'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-webdriver', version: '2.3.4'
+    testImplementation group: 'junit', name: 'junit', version: '4.13.1'
+    implementation group: 'org.assertj', name: 'assertj-core', version: '3.8.0'
+    implementation group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
 
-    compileOnly "org.projectlombok:lombok:${lombokVersion}"
-    annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
-    testImplementation "org.slf4j:slf4j-simple:${slf4jVersion}"
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.12'
+    annotationProcessor "org.projectlombok:lombok:1.18.12"
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.30'
 }
 
-task copyDeps(type: Copy) {
-    from configurations.runtime
-    into project.projectDir.path + "/lib"
-}
 jacoco {
     toolVersion = "0.8.3"
     reportsDir = file("$buildDir/customJacocoReportDir")
@@ -73,7 +58,6 @@ jacocoTestReport {
         html.destination file("${buildDir}/jacocoHtml")
     }
 }
-
 test {
     useJUnit()
 

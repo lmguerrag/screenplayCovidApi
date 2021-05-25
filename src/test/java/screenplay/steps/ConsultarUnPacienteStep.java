@@ -1,15 +1,15 @@
 package screenplay.steps;
 
 import co.com.sofkau.pecientes.test.data.RequestAutenticacion;
+import co.com.sofkau.pecientes.test.data.RequestPacientes;
 import co.com.sofkau.pecientes.test.model.JsonPaciente;
 import co.com.sofkau.pecientes.test.task.http.GetRequestWithInvalidToken;
 import co.com.sofkau.pecientes.test.task.http.GetRequestWithToken;
 import co.com.sofkau.pecientes.test.task.http.PostRequestWithToken;
 import co.com.sofkau.pecientes.test.task.project.SaveToken;
 import co.com.sofkau.pecientes.test.task.project.TokenRequest;
-import com.ibm.icu.impl.number.Parse;
-import freemarker.core.Environment;
 import io.cucumber.java.es.Cuando;
+import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 import io.cucumber.java.es.Y;
 import net.serenitybdd.rest.SerenityRest;
@@ -25,7 +25,20 @@ public class ConsultarUnPacienteStep {
     private Actor actor;
     private EnvironmentVariables variables;
     private JsonPaciente pacienteRecibido;
-    private String documento = "123456";
+    private String documento = "22557788";
+    private JsonPaciente pacienteEnviado;
+
+    @Dado("un {string} guarda un paciente")
+    public void unGuardaUnPaciente(String name) {
+        actor = Actor.named(name);
+        actor.attemptsTo(TokenRequest.execute(RequestAutenticacion.getValidUser()));
+        actor.attemptsTo(SaveToken.execute());
+        String urlbase = variables.getProperty("baseurl");
+        actor.whoCan(CallAnApi.at(urlbase));
+        pacienteEnviado = RequestPacientes.getPatientWithId(documento);
+        actor.attemptsTo(PostRequestWithToken
+                .execute(variables.getProperty("pathPatient"), pacienteEnviado));
+    }
 
     @Cuando("un {string} tiene un token valido")
     public void unTieneUnTokenValido(String name) {
@@ -83,4 +96,5 @@ public class ConsultarUnPacienteStep {
                 seeThatResponse("la api entrego el codigo 404 correctamente",
                         response -> response.statusCode(Integer.parseInt(codigo))));
     }
+
 }

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Consultar un paciente","Consulta de paciente exitosa","SUCCESS","2021-05-25T15:20:19.2857078-05:00[America/Bogota]","0.0","4.84"
+"Consultar un paciente","Consulta de paciente con token invalido","SUCCESS","2021-05-25T15:20:24.1607238-05:00[America/Bogota]","0.0","0.58"
+"Consultar un paciente","Consulta de paciente no registrado","SUCCESS","2021-05-25T15:20:24.7559134-05:00[America/Bogota]","0.0","1.03"
