@@ -3,6 +3,7 @@ package screenplay.steps;
 import co.com.sofkau.pecientes.test.data.RequestAutenticacion;
 import co.com.sofkau.pecientes.test.model.JsonCita;
 import co.com.sofkau.pecientes.test.model.JsonPaciente;
+import co.com.sofkau.pecientes.test.task.http.GetRequestWithInvalidToken;
 import co.com.sofkau.pecientes.test.task.http.GetRequestWithToken;
 import co.com.sofkau.pecientes.test.task.project.SaveToken;
 import co.com.sofkau.pecientes.test.task.project.TokenRequest;
@@ -46,5 +47,20 @@ public class ConsultarCitasStep {
                 seeThatResponse("la api entrego el codigo 200 correctamente",
                         response -> response.statusCode(200)));
 
+    }
+
+    @Cuando("un {string} con token invalido quiere consultar las citas de un paciente")
+    public void unConTokenInvalidoQuiereConsultarLasCitasDeUnPaciente(String name) {
+        String urlbase = variables.getProperty("baseurl");
+        actor = Actor.named(name);
+        actor.whoCan(CallAnApi.at(urlbase));
+        actor.attemptsTo(GetRequestWithInvalidToken.execute("cita/paciente/" + documento));
+    }
+
+    @Entonces("la api no permite hacer la consulta respondiendo con codigo {string}")
+    public void laApiNoPermiteHacerLaConsultaRespondiendoConCodigo(String codigo) {
+        actor.should(
+                seeThatResponse("la api entrego el codigo 403 correctamente",
+                        response -> response.statusCode(Integer.parseInt(codigo))));
     }
 }

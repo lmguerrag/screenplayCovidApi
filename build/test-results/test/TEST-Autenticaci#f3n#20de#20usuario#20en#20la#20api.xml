@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Autenticación de usuario en la api" tests="3" skipped="0" failures="1" errors="0" timestamp="2021-05-26T15:54:31" hostname="DESKTOP-7NVI6VL" time="6.556">
+  <properties/>
+  <testcase name="Autenticacion exitosa" classname="Autenticación de usuario en la api" time="6.101"/>
+  <testcase name="Autenticacion con password incorrecto" classname="Autenticación de usuario en la api" time="0.126"/>
+  <testcase name="Autenticacion con password Covid" classname="Autenticación de usuario en la api" time="0.329">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;403&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;403&gt; but was &lt;200&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at screenplay.steps.AutenticacionStep.laApiContestaConStatus(AutenticacionStep.java:55)
+	at ✽.la api contesta con status &quot;403&quot;(file:///C:/Users/luisg/Desktop/SoapUIprojects/certificacion-pacientes-covid/src/test/resources/features/Autenticacion.feature:15)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

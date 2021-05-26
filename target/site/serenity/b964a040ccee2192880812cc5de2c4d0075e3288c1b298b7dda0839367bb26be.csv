@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Autenticación de usuario en la api","Autenticacion con password Covid","FAILURE","2021-05-25T15:20:13.4621714-05:00[America/Bogota]","0.0","0.3"
-"Crear una cita","Cracion de cita con campos vacios","FAILURE","2021-05-25T15:20:27.7725139-05:00[America/Bogota]","0.0","1.17"
-"Administrar información de pacientes","Creacion de un paciente con campos vacios","FAILURE","2021-05-25T15:20:34.8609284-05:00[America/Bogota]","0.0","0.54"
+"Autenticación de usuario en la api","Autenticacion con password Covid","FAILURE","2021-05-26T10:54:37.376042-05:00[America/Bogota]","0.0","0.14"
+"Crear una cita","Cracion de cita con campos vacios","FAILURE","2021-05-26T10:54:43.3834509-05:00[America/Bogota]","0.0","0.18"
+"Administrar información de pacientes","Creacion de un paciente con campos vacios","FAILURE","2021-05-26T10:54:45.5694799-05:00[America/Bogota]","0.0","0.21"

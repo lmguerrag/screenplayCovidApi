@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Eliminar un paciente" skipped="0" tests="3" time="1.17" timestamp="2021-05-26 10:54:43"><testcase name="Eliminacion de paciente exitosa"/><testcase name="Eliminacion de paciente con documento invalido"/><testcase name="Eliminacion de paciente con token invalido"/></testsuite>

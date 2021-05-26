@@ -20,13 +20,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">18</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">3</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">27.440s</div>
+<div class="counter">11.353s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">83%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,13 +58,33 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/Administrar%2320informaci%23f3n%2320de%2320pacientes.html">Administrar información de pacientes</a>.
+<a href="classes/Administrar%2320informaci%23f3n%2320de%2320pacientes.html#Creacion de un paciente con campos vacios">Creacion de un paciente con campos vacios</a>
+</li>
+<li>
+<a href="classes/Autenticaci%23f3n%2320de%2320usuario%2320en%2320la%2320api.html">Autenticación de usuario en la api</a>.
+<a href="classes/Autenticaci%23f3n%2320de%2320usuario%2320en%2320la%2320api.html#Autenticacion con password Covid">Autenticacion con password Covid</a>
+</li>
+<li>
+<a href="classes/Crear%2320una%2320cita.html">Crear una cita</a>.
+<a href="classes/Crear%2320una%2320cita.html#Cracion de cita con campos vacios">Cracion de cita con campos vacios</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -79,14 +99,14 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="packages/default-package.html">default-package</a>
 </td>
-<td>1</td>
+<td>18</td>
+<td>3</td>
 <td>0</td>
-<td>0</td>
-<td>27.440s</td>
-<td class="success">100%</td>
+<td>11.353s</td>
+<td class="failures">83%</td>
 </tr>
 <tr>
 <td class="success">
@@ -101,7 +121,7 @@
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -116,18 +136,118 @@
 </thead>
 <tbody>
 <tr>
+<td class="failures">
+<a href="classes/Administrar%2320informaci%23f3n%2320de%2320pacientes.html">Administrar información de pacientes</a>
+</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>0.494s</td>
+<td class="failures">66%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/Autenticaci%23f3n%2320de%2320usuario%2320en%2320la%2320api.html">Autenticación de usuario en la api</a>
+</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>6.556s</td>
+<td class="failures">66%</td>
+</tr>
+<tr>
 <td class="success">
 <a href="classes/Consultar%2320citas.html">Consultar citas</a>
 </td>
-<td>1</td>
+<td>2</td>
 <td>0</td>
 <td>0</td>
-<td>27.440s</td>
+<td>0.961s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
 <td class="success">
+<a href="classes/Consultar%2320un%2320paciente.html">Consultar un paciente</a>
+</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>1.419s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/Crear%2320una%2320cita.html">Crear una cita</a>
+</td>
+<td>4</td>
+<td>1</td>
+<td>0</td>
+<td>0.700s</td>
+<td class="failures">75%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/Eliminar%2320un%2320paciente.html">Eliminar un paciente</a>
+</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>1.223s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/screenplay.runners.TestRunnerAutenticacion.html">screenplay.runners.TestRunnerAutenticacion</a>
+</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>-</td>
+<td class="success">-</td>
+</tr>
+<tr>
+<td class="success">
 <a href="classes/screenplay.runners.TestRunnerConsultarCitas.html">screenplay.runners.TestRunnerConsultarCitas</a>
+</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>-</td>
+<td class="success">-</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/screenplay.runners.TestRunnerConsultarUnPaciente.html">screenplay.runners.TestRunnerConsultarUnPaciente</a>
+</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>-</td>
+<td class="success">-</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/screenplay.runners.TestRunnerCrearCita.html">screenplay.runners.TestRunnerCrearCita</a>
+</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>-</td>
+<td class="success">-</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/screenplay.runners.TestRunnerEliminarPaciente.html">screenplay.runners.TestRunnerEliminarPaciente</a>
+</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>-</td>
+<td class="success">-</td>
+</tr>
+<tr>
+<td class="success">
+<a href="classes/screenplay.runners.TestRunnerGuardarPaciente.html">screenplay.runners.TestRunnerGuardarPaciente</a>
 </td>
 <td>0</td>
 <td>0</td>
@@ -146,7 +266,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.7</a> at May 25, 2021, 6:04:20 PM</p>
+<a href="http://www.gradle.org">Gradle 7.0</a> at May 26, 2021, 10:54:46 AM</p>
 </div>
 </div>
 </body>

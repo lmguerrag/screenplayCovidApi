@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Autenticación de usuario en la api","Autenticacion exitosa","SUCCESS","2021-05-25T15:20:03.3576099-05:00[America/Bogota]","0.0","9.76"
-"Autenticación de usuario en la api","Autenticacion con password incorrecto","SUCCESS","2021-05-25T15:20:13.1792467-05:00[America/Bogota]","0.0","0.27"
-"Autenticación de usuario en la api","Autenticacion con password Covid","FAILURE","2021-05-25T15:20:13.4621714-05:00[America/Bogota]","0.0","0.3"
+"Autenticación de usuario en la api","Autenticacion exitosa","SUCCESS","2021-05-26T10:54:31.591669-05:00[America/Bogota]","0.0","5.62"
+"Autenticación de usuario en la api","Autenticacion con password incorrecto","SUCCESS","2021-05-26T10:54:37.2442041-05:00[America/Bogota]","0.0","0.1"
+"Autenticación de usuario en la api","Autenticacion con password Covid","FAILURE","2021-05-26T10:54:37.376042-05:00[America/Bogota]","0.0","0.14"

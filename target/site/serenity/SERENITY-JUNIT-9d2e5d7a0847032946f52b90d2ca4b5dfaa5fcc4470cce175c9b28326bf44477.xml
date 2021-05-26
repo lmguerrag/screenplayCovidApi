@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Consultar citas" skipped="0" tests="1" time="24.45" timestamp="2021-05-25 06:03:51"><testcase name="Consultar citas de un paciente"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Consultar citas" skipped="0" tests="2" time="0.95" timestamp="2021-05-26 10:54:40"><testcase name="Consultar citas de un paciente"/><testcase name="Consultar citas con token invalido"/></testsuite>

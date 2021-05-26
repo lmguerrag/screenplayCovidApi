@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Consultar citas","Consultar citas de un paciente","SUCCESS","2021-05-26T10:54:40.3612702-05:00[America/Bogota]","0.0","0.86"
+"Consultar citas","Consultar citas con token invalido","SUCCESS","2021-05-26T10:54:41.2209677-05:00[America/Bogota]","0.0","0.09"

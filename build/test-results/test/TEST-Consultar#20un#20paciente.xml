@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Consultar un paciente" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-05-26T15:54:41" hostname="DESKTOP-7NVI6VL" time="1.419">
+  <properties/>
+  <testcase name="Consulta de paciente exitosa" classname="Consultar un paciente" time="0.857"/>
+  <testcase name="Consulta de paciente con token invalido" classname="Consultar un paciente" time="0.248"/>
+  <testcase name="Consulta de paciente no registrado" classname="Consultar un paciente" time="0.314"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

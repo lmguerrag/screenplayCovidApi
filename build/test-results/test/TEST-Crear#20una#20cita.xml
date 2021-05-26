@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Crear una cita" tests="4" skipped="0" failures="1" errors="0" timestamp="2021-05-26T15:54:43" hostname="DESKTOP-7NVI6VL" time="0.7">
+  <properties/>
+  <testcase name="Cracion de cita exitosa" classname="Crear una cita" time="0.273"/>
+  <testcase name="Cracion de cita con token invalido" classname="Crear una cita" time="0.075"/>
+  <testcase name="Cracion de cita con campos vacios" classname="Crear una cita" time="0.19">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;201&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;201&gt;.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at screenplay.steps.CrearCitaStep.laApiRespondeConStatusDeError(CrearCitaStep.java:91)
+	at ✽.la api responde con status de error &quot;500&quot;(file:///C:/Users/luisg/Desktop/SoapUIprojects/certificacion-pacientes-covid/src/test/resources/features/CrearCita.feature:16)
+</failure>
+  </testcase>
+  <testcase name="Cracion de cita con documento invalido" classname="Crear una cita" time="0.162"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

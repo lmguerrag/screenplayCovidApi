@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="screenplay.runners.TestRunnerCrearCita" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-7NVI6VL" time="0.0">
+  <properties/>
+  <system-out><![CDATA[
+?[31mFailed scenarios:?[0m
+?[31mfile:///C:/Users/luisg/Desktop/SoapUIprojects/certificacion-pacientes-covid/src/test/resources/features/CrearCita.feature:13?[0m# Cracion de cita con campos vacios
+
+4 Scenarios (?[31m1 failed?[0m, ?[32m3 passed?[0m)
+11 Steps (?[31m1 failed?[0m, ?[32m10 passed?[0m)
+0m0.718s
+
+
+java.lang.AssertionError: 1 expectation failed.
+Expected status code <500> but was <201>.
+
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:316)
+	at screenplay.steps.CrearCitaStep.laApiRespondeConStatusDeError(CrearCitaStep.java:91)
+	at ?.la api responde con status de error "500"(file:///C:/Users/luisg/Desktop/SoapUIprojects/certificacion-pacientes-covid/src/test/resources/features/CrearCita.feature:16)
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
