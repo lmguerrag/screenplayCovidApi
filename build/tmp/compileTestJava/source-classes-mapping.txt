@@ -1,24 +1,24 @@
 screenplay/runners/TestRunnerCrearCita.java
  screenplay.runners.TestRunnerCrearCita
-screenplay/steps/EliminarPacienteStep.java
- screenplay.steps.EliminarPacienteStep
 screenplay/runners/TestRunnerGuardarPaciente.java
  screenplay.runners.TestRunnerGuardarPaciente
-screenplay/steps/ConsultarCitasStep.java
- screenplay.steps.ConsultarCitasStep
+screenplay/steps/EliminarPacienteStep.java
+ screenplay.steps.EliminarPacienteStep
+screenplay/runners/TestRunnerConsultarCitas.java
+ screenplay.runners.TestRunnerConsultarCitas
 screenplay/runners/TestRunnerConsultarUnPaciente.java
  screenplay.runners.TestRunnerConsultarUnPaciente
 screenplay/steps/AutenticacionStep.java
  screenplay.steps.AutenticacionStep
 screenplay/steps/CrearCitaStep.java
  screenplay.steps.CrearCitaStep
-screenplay/steps/GuardarPacienteStep.java
- screenplay.steps.GuardarPacienteStep
-screenplay/steps/ConsultarUnPacienteStep.java
- screenplay.steps.ConsultarUnPacienteStep
 screenplay/runners/TestRunnerEliminarPaciente.java
  screenplay.runners.TestRunnerEliminarPaciente
-screenplay/runners/TestRunnerConsultarCitas.java
- screenplay.runners.TestRunnerConsultarCitas
+screenplay/steps/ConsultarUnPacienteStep.java
+ screenplay.steps.ConsultarUnPacienteStep
+screenplay/steps/GuardarPacienteStep.java
+ screenplay.steps.GuardarPacienteStep
 screenplay/runners/TestRunnerAutenticacion.java
  screenplay.runners.TestRunnerAutenticacion
+screenplay/steps/ConsultarCitasStep.java
+ screenplay.steps.ConsultarCitasStep

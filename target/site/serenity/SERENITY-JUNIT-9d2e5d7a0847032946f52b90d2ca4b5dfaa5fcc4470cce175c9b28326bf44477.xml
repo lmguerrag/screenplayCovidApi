@@ -1,1 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Consultar citas" skipped="0" tests="2" time="0.95" timestamp="2021-05-26 10:54:40"><testcase name="Consultar citas de un paciente"/><testcase name="Consultar citas con token invalido"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Consultar citas" skipped="0" tests="2" time="7.84" timestamp="2021-05-29 03:51:52"><testcase name="Consultar citas de un paciente"><failure message="expected:&lt;&quot;123[456]&quot;&gt; but was:&lt;&quot;123[]&quot;&gt;" type="java.lang.AssertionError">expected:&lt;"123[456]"&gt; but was:&lt;"123[]"&gt;</failure><system-err>expected:&lt;"123[456]"&gt; but was:&lt;"123[]"&gt;&#13;
+screenplay.steps.ConsultarCitasStep.puedeConsultarLasCitasDeUnPacienteCorrectamente(ConsultarCitasStep.java:53)&#13;
+✽.puede consultar las citas de un paciente correctamente(file:///C:/Users/luisg/Desktop/SoapUIprojects/certificacion-pacientes-covid/src/test/resources/features/ConsultarCitas.feature:7)&#13;
+</system-err></testcase><testcase name="Consultar citas con token invalido"/></testsuite>

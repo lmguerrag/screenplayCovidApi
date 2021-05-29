@@ -2,11 +2,25 @@
 <testsuite name="screenplay.runners.TestRunnerConsultarCitas" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="DESKTOP-7NVI6VL" time="0.0">
   <properties/>
   <system-out><![CDATA[
-2 Scenarios (?[32m2 passed?[0m)
-5 Steps (?[32m5 passed?[0m)
-0m0.982s
+?[31mFailed scenarios:?[0m
+?[31mfile:///C:/Users/luisg/Desktop/SoapUIprojects/certificacion-pacientes-covid/src/test/resources/features/ConsultarCitas.feature:4?[0m# Consultar citas de un paciente
+
+2 Scenarios (?[31m1 failed?[0m, ?[32m1 passed?[0m)
+5 Steps (?[31m1 failed?[0m, ?[32m4 passed?[0m)
+0m9.607s
+
+
+org.junit.ComparisonFailure: expected:<"123[456]"> but was:<"123[]">
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at screenplay.steps.ConsultarCitasStep.puedeConsultarLasCitasDeUnPacienteCorrectamente(ConsultarCitasStep.java:53)
+	at ?.puede consultar las citas de un paciente correctamente(file:///C:/Users/luisg/Desktop/SoapUIprojects/certificacion-pacientes-covid/src/test/resources/features/ConsultarCitas.feature:7)
 
 
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
 </testsuite>

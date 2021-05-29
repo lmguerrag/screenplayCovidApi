@@ -49,3 +49,11 @@ n
 >src/test/java/screenplay/runners/TestRunnerConsultarCitas.java,1\f\1f8f2a00ffc99994f1287cfb39abfcebc71178a0
 f
 6src/test/java/screenplay/steps/ConsultarCitasStep.java,c\3\c3be20d24b80d76e823d538f2cfe9b23d8ed29ff
+p
+@src/test/java/screenplay/runners/TestRunnerEliminarPaciente.java,a\9\a9a1ef97223c6f6912e189e29177c98c918d4921
+‡
+Wsrc/main/java/co/com/sofkau/pecientes/test/task/http/DeleteRequestWithInvalidToken.java,f\8\f858d70cfa8ccf85f6d22eb6570f39c8d5b8621d
+€
+Psrc/main/java/co/com/sofkau/pecientes/test/task/http/DeleteRequestWithToken.java,e\6\e67993eb70be66bfc38ba8779db0d0ce918f4aa4
+h
+8src/test/java/screenplay/steps/EliminarPacienteStep.java,3\7\378dbf789a3c2454c101bdbdf048b7ae57dbe1f0

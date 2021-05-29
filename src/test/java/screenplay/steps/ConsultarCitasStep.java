@@ -20,6 +20,7 @@ import net.thucydides.core.util.EnvironmentVariables;
 import java.util.List;
 
 import static net.serenitybdd.screenplay.rest.questions.ResponseConsequence.seeThatResponse;
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class ConsultarCitasStep {
 
@@ -47,6 +48,11 @@ public class ConsultarCitasStep {
                 seeThatResponse("la api entrego el codigo 200 correctamente",
                         response -> response.statusCode(200)));
 
+        List<JsonCita> listaCitas = SerenityRest.lastResponse().jsonPath().getList("", JsonCita.class);
+        for(JsonCita cita : listaCitas){
+            assertThat(documento).isEqualTo(String.valueOf(cita.getPatientId()));
+        }
+
     }
 
     @Cuando("un {string} con token invalido quiere consultar las citas de un paciente")
@@ -62,5 +68,6 @@ public class ConsultarCitasStep {
         actor.should(
                 seeThatResponse("la api entrego el codigo 403 correctamente",
                         response -> response.statusCode(Integer.parseInt(codigo))));
+
     }
 }
